@@ -3,7 +3,7 @@
 %bcond_without	doc	# Sphinx documentation
 %bcond_with	tests	# unit tests (failing at start as of 0.17.0)
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module
 
 Summary:	An autocompletion tool for Python that can be used for text editors
 Summary(pl.UTF-8):	Narzędzie do automatycznego dopełaniania dla Pythona, nadające się do użycia w edytorach
